@@ -5,78 +5,57 @@
     <title>Storey's Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .navbar {
-            background-color: darkslateblue;
-            padding: 5px 5px 5px 10px;
-        }
-
-        .container {
-            margin: 25px 25px 25px 25px;
-            background-color: lightgray;
-            padding: 10px 10px 10px 10px;
-            border-style: solid;
-            border-width: 1px;
-        }
-        
-        .col-sm-7 {
-            margin: 10px;
-        }
-
-        .row {
-            margin: 15px 0 15px 15px;
-        }
-
-        header h1 {
-            font-size: 32px;
-            margin: 10px 0px 0px 10px;
-        }
-
-        .col-sm-3 {
-            margin: 0 10px 10px 10px;
-        }
-    </style>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4e28372e3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <span class="navbar-brand mb-1 h1">Storey Sheldon</span>
+
+    <!-- nav bar with social media icons -->
+    <nav class="navbar navbar-expand-lg justify-content-end" id="fixed-navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item ml-2 mr-3">
+                <a class="nav-link" href="https://www.linkedin.com/in/storeysheldon/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li class="nav-item ml-2 mr-5">
+                <a class="nav-link" href="https://github.com/storey17" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- main navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <a class="nav-link navbar-brand mb-1 ml-3" href="index.html">Storey Sheldon</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://storey17.github.io/Responsiveness-Portfolio_HW-2/index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://storey17.github.io/Responsiveness-Portfolio_HW-2/portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://storey17.github.io/Responsiveness-Portfolio_HW-2/contact.html">Contact</a>
-                </li>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>  
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false">
+                    <li class="nav-item ml-4 mr-5">
+                        <button type="button" class="btn btn-dark btn-sm" href="contact.html">Contact Me!</button>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <header>
-                    <h1>About Me</h1>
-                    <hr>
-                    </hr>
-                </header>
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container m-5">
+            <h1 class="display-4">Hi</h1>
+            <p class="lead">My name is Storey Sheldon</p>
+        </div>
+    </div>
 
+
+
+    <div class="container" id="about-me">
                 <div class="row">
                     <div class="col-sm-4">
                         <img src="AboutMe.jpeg" alt="Storey Sheldon" class="img-thumbnail">
@@ -84,24 +63,25 @@
 
                     <div class="col-sm-8">
                         <p>
-                            Hi! My name is Storey Sheldon. I'm originally from Dallas, TX and went to The University of Texas at Austin for my Bachelors in Advertising. After graduating, I moved to China/Hong Kong where I lived for three years working in Marketing. I just moved back to Dallas and now want to focus on web development!
+                            Hi! My name is Storey Sheldon. I'm originally from Dallas, TX and went to The University of
+                            Texas at Austin for my Bachelors in Advertising. After graduating, I moved to China/Hong
+                            Kong where I lived for three years working in Marketing. I just moved back to Dallas and now
+                            want to focus on web development!
                         </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
