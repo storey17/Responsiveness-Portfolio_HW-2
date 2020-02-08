@@ -14,22 +14,22 @@
 <body>
 
     <!-- nav bar with social media icons -->
-    <nav class="navbar navbar-expand-lg justify-content-end" id="fixed-navbar">
-        <ul class="navbar-nav">
-            <li class="nav-item ml-2 mr-3">
+    <nav class="navbar navbar-expand-lg" id="fixed-navbar">
+        <ul class="navbar-nav ml-auto social-media">
+            <li class="nav-item">
                 <a class="nav-link" href="https://www.linkedin.com/in/storeysheldon/" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a>
+                        class="fab fa-linkedin-in fa-lg"></i></a>
             </li>
-            <li class="nav-item ml-2 mr-5">
-                <a class="nav-link" href="https://github.com/storey17" target="_blank"><i class="fab fa-github"></i></a>
+            <li class="nav-item ml-3 mr-5">
+                <a class="nav-link" href="https://github.com/storey17" target="_blank"><i
+                        class="fab fa-github fa-lg"></i></a>
             </li>
         </ul>
     </nav>
 
     <!-- main navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <a class="nav-link navbar-brand mb-1 ml-3" href="index.html">Storey Sheldon</a>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-3">
+        <a class="nav-link navbar-brand ml-3" href="index.html">Storey Sheldon</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,34 +39,34 @@
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Resume</a>
+                </li>
             </ul>
             <ul class="navbar-nav mr-5">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false">
                     <li class="nav-item">
-                        <button type="button" class="btn btn-dark btn-sm" href="contact.html">Contact Me!</button>
+                        <a href="contact.html"> <button type="button" class="btn btn-dark px-4">Contact Me</button> </a>
                     </li>
                 </button>
             </ul>
         </div>
     </nav>
 
-    <!-- jumbotron -->
+    <!-- jumbotron & main content-->
     <div class="jumbotron jumbotron-fluid">
-        <div class="container m-5">
-            <h1 class="display-4">Hi</h1>
-            <p class="lead">My name is Storey Sheldon</p>
-        </div>
-    </div>
+        <div class="container">
+            <h1 class="display-4 text-center">Storey Sheldon</h1>
+            <p class="lead text-center">Developer. Marketer. Traveler.</p>
 
-
-
-    <div class="container" id="about-me">
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="AboutMe.jpeg" alt="Storey Sheldon" class="img-thumbnail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="AboutMe.jpeg" alt="Storey Sheldon" class="img">
+                    </div>
+                </div>
             </div>
-
-            <div class="col-sm-8">
+            <div class="col-sm-8" id="about-me">
                 <p>
                     Hi! My name is Storey Sheldon. I'm originally from Dallas, TX and went to The University of
                     Texas at Austin for my Bachelors in Advertising. After graduating, I moved to China/Hong
@@ -75,7 +75,6 @@
                 </p>
             </div>
         </div>
-    </div>
     </div>
 
 
@@ -87,6 +86,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

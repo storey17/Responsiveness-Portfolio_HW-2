@@ -9,14 +9,40 @@ body {
 
 #fixed-navbar {
     background-color: lightgray;
+    padding: 0%;
 }
 
+.navbar-nav.social-media {
+    flex-direction: inherit;
+}
+
+.fa-linkedin-in, .fa-github {
+    color: black;
+}
+
+.jumbotron {
+    color: white;
+    background-image: url("IMG_1038.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0;
+  }
+
 #about-me {
-    margin: 25px 25px 25px 25px;
+    opacity: 90%;
     background-color: lightgray;
     padding: 10px 10px 10px 10px;
     border-style: solid;
     border-width: 1px;
+    color: black;
+}
+
+.img {
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .col-sm-7 {
