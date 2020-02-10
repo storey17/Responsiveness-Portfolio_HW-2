@@ -26,6 +26,10 @@ body {
     color: black;
 }
 
+button#contact-button:hover {
+    background-color: #CDDEAB;
+}
+
 .jumbotron {
     color: white;
     background-image: url("IMG_2.jpg");
