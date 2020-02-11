@@ -41,7 +41,7 @@ button#contact-button:hover {
   }
 
 #about-me {
-    opacity: 75%;
+    opacity: 65%;
     background-color: white;
     padding: 10px 10px 10px 10px;
     color: black;
@@ -51,6 +51,7 @@ button#contact-button:hover {
     border-radius: .25rem;
     max-width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
 .col-sm-7 {
@@ -62,9 +63,9 @@ button#contact-button:hover {
 }
 
 h1 {
-    font-size: 32px;
-    color: black;
-    margin: 10px 0px 0px 10px;
+    font-size: 30px;
+    color: #cd00cd;
+    margin: 0px 0px 0px 10px;
 }
 
 .col-sm-3 {
@@ -85,3 +86,7 @@ form {
     margin: 25px;
     padding: 10px 50px 50px 50px;
 }
+
+footer {
+    background-color: #91BDC0;
+  }
