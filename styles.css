@@ -1,5 +1,9 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-image: url("IMG_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar {
@@ -17,33 +21,31 @@ body {
 }
 
 .fa-linkedin-in, .fa-github {
-    color: black;
+    color: #404040;
 }
 
 #contact-button {
     background-color: #CAD66F;
     border-style: none;
     color: black;
+    font-weight: bold;
 }
 
-button#contact-button:hover {
+a#contact-button:hover {
     background-color: #CDDEAB;
 }
 
-.jumbotron {
+.main-content {
     color: white;
-    background-image: url("IMG_2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+
+    /* height: 880px; */
     margin-bottom: 0;
   }
 
 #about-me {
     opacity: 65%;
     background-color: white;
-    padding: 10px 10px 10px 10px;
+    padding: 15px;
     color: black;
 }
 
@@ -63,9 +65,15 @@ button#contact-button:hover {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: #cd00cd;
     margin: 0px 0px 0px 10px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+}
+
+.title {
+    margin-bottom: 2rem;
 }
 
 .col-sm-3 {
